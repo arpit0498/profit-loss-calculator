@@ -1,8 +1,23 @@
 body{
     text-align: center;
+    background-color: #6f76aa;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT","Trebuchet MS", sans-serif;
 }
 
 label{
     display: block;
+    margin:auto;
     padding-bottom: 1rem;
+}
+input{
+    margin:auto;
+    height: auto;
+}
+button{
+    padding: .5rem;
+    margin-top: 1.5rem;
+   
 }
