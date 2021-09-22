@@ -1,6 +1,7 @@
 body{
+    color: greenyellow;
     text-align: center;
-    background-color: #6f76aa;
+    background-color: #262e69;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -10,14 +11,16 @@ body{
 label{
     display: block;
     margin:auto;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
+  
 }
 input{
     margin:auto;
     height: auto;
+    padding: 1em;
 }
 button{
-    padding: .5rem;
+    border-width: thick;
     margin-top: 1.5rem;
    
 }
