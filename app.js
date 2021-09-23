@@ -24,9 +24,9 @@ function submitHandler(){
 }
     function calculateProfitLoss(initial,quantity,current){
     if(initial > current){
-        var loss = (initial - current)* current;
+        var loss = (initial - current)* quantity;
         var lossPercentage= (loss/initial)*100;
-        showOutput(`The Loss is ${profit}  and the percent is ${lossPercentage}`);
+        showOutput(`The Loss is ${loss}  and the percent is ${lossPercentage}`);
 
 
 
